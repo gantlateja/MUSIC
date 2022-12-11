@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/image.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar {
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 140px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: rgba(100, 99, 99, 0.749);
+    font-size: 15px;
+}
+
+#content {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+#left {
+    margin-left: 6%;
+}
+
+#left h1 {
+    font-size: 90px;
+    line-height: 110px;
+    color: #fff;
+    float: left;
+}
+
+#right {
+    float: right;
+    margin-right: 6%;
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+}
+
+#right p {
+    font-size: 10px;
+    color: rgba(103, 101, 99, 0.888);
+    margin-right: 15px;
+    font-weight: 200;
+}
+
+#play {
+    width: 70px;
+    cursor: pointer;
+
+}
